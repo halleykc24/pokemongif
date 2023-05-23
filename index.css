@@ -1,0 +1,58 @@
+@font-face{
+    src: url("PokemonClassic.ttf");
+    font-family: Pokemon;
+}
+body{
+    text-align: center;
+    font-family: Pokemon;
+    background:linear-gradient(#93CAAD,#8CC38B,#639667,#45755D,#A93F48);
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.pikachu{
+    width:150px;
+    border-radius:10%;
+}
+.img-hint{
+    margin-bottom:40px;
+}
+.pokeball{
+    background:url(images/pokeball.webp);
+    background-size:cover;
+    height:200px;
+    width:200px;
+    margin:0px auto 20px auto;
+    border-radius:50%;
+    padding:0px;
+    border:5px solid black;
+
+}
+
+#rhydon:hover{
+    background:url("https://media.giphy.com/media/gsRBrQ4vthDFe/giphy.gif");
+    background-size:cover;
+}
+
+#arcanine:hover{
+    background:url("https://i.gifer.com/8XGe.gif");
+    background-size:cover;
+}
+
+#charmander:hover{
+    background:url("https://media.giphy.com/media/WJ7Tr9wi8xVe0/giphy.gif");
+    background-size:cover;
+}
+
+#poliwhirl:hover{
+    background:url("https://media.giphy.com/media/TtS3KqV3X5r2fZ1yoK/giphy.gif");
+    background-size:cover;
+}
+
+#slowbro:hover{
+    background:url("https://i.gifer.com/7Sks.gif");
+    background-size:cover;
+}
