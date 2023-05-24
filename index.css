@@ -5,6 +5,7 @@
 body{
     text-align: center;
     font-family: Pokemon;
+    background:linear-gradient(#93CAAD,#8CC38B,#639667,#45755D,#A93F48);
 }
 
 .header{
@@ -36,18 +37,22 @@ body{
     background-size:cover;
 }
 
-#arcanine{
-    
+#arcanine:hover{
+    background:url("https://i.gifer.com/8XGe.gif");
+    background-size:cover;
 }
 
-#charmander{
-    
+#charmander:hover{
+    background:url("https://media.giphy.com/media/WJ7Tr9wi8xVe0/giphy.gif");
+    background-size:cover;
 }
 
-#poliwhirl{
-    
+#poliwhirl:hover{
+    background:url("https://media.giphy.com/media/TtS3KqV3X5r2fZ1yoK/giphy.gif");
+    background-size:cover;
 }
 
-#slowbro{
-    
+#slowbro:hover{
+    background:url("https://i.gifer.com/7Sks.gif");
+    background-size:cover;
 }
